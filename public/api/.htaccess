@@ -1,0 +1,15 @@
+# ==============================================================================
+# QistBazaar - API Directory Apache Config
+# ==============================================================================
+
+# Enable execution of PHP scripts
+<IfModule mod_php.c>
+    php_flag display_errors Off
+</IfModule>
+
+# Ensure CORS and JSON Content-Type
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+</IfModule>

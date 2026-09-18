@@ -1,0 +1,7 @@
+{
+  "name": "QistBazaar - Pakistan Installments CRM & ERP",
+  "description": "Comprehensive ERP and CRM designed for installment businesses in Pakistan, featuring CNIC verification, Zamin (guarantors), IMEI/Chassis tracking, recovery schedules, WhatsApp reminders, and ERP planning architecture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
